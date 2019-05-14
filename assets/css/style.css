@@ -326,10 +326,12 @@ footer {
         padding-top: 15px;
     }
     .photo-container {
-        margin: 0px 25px 20px 25px
+        margin-left: 50px;
+        margin-right: 50px;
     }
     .gallery-photo {
-        width: 280px;
+        width: 350px;
+        height: 350px;
         margin: 0px auto
     }
     p {
@@ -355,5 +357,19 @@ footer {
         width: 100%;
         font-size: 1.2rem;
         margin: 20px auto 5px
+    }
+    .paraphotodiv img {
+        width: 100%;
+        height: auto;
+    }
+    .paraphotodiv p {
+        margin: 0px;
+        position: relative;
+    }
+    .portfolio-container {
+        text-align: center
+    }
+    .photoBanner {
+        top: 270px;
     }
 }
