@@ -333,6 +333,7 @@ footer {
     .photo-container {
         margin-left: 50px;
         margin-right: 50px;
+        width: auto;
     }
     .gallery-photo {
         width: 350px;
@@ -376,5 +377,6 @@ footer {
     }
     .photoBanner {
         top: 270px;
+        width: 100%;
     }
 }
