@@ -297,6 +297,63 @@ footer {
 
 @media screen and (max-width: 640px) {
     .content-container {
-        width: 550px
+        margin: 90px auto;
+        width: 80%
+    }
+    .header-container {
+        width: 100%;
+        display: inline-block
+    }
+    .nametag {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        padding: 0px;
+        margin: 0px;
+        height: 90px;
+    }
+    .nametag h1 {
+        padding: 20px;
+    }
+    .links-container {
+        width: 100%;
+        background: white;
+        text-align: center;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        height: 50px;
+        padding-top: 15px;
+    }
+    .photo-container {
+        margin: 0px 25px 20px 25px
+    }
+    .gallery-photo {
+        width: 280px;
+        margin: 0px auto
+    }
+    p {
+        font-size: 1.25rem
+    }
+    img {
+        height: 300px;
+        width: 300px;
+        margin-top: 10px
+    }
+    input {
+        font-size: 1.2rem;
+        line-height: 3rem
+    }
+    label {
+        font-size: 1.5rem;
+        line-height: 3rem
+    }
+    footer {
+        width: 100%
+    }
+    .footer-content {
+        width: 100%;
+        font-size: 1.2rem;
+        margin: 20px auto 5px
     }
 }
