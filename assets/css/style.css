@@ -213,7 +213,7 @@ footer {
 @media screen and (max-width: 980px) {
     .content-container {
         max-width: 680px;
-        margin: 40px auto 20px 30px
+        margin: 40px auto 110px 30px
     }
     .header-container {
         width: 100%
@@ -258,13 +258,18 @@ footer {
 
 @media screen and (max-width: 768px) {
     .content-container {
-        width: 680px
+        width: 650px;
+        margin-bottom: 110px
     }
     .header-container {
         width: 100%
     }
     .photo-container {
-        margin: 0px 25px 20px 25px
+        margin: 0px 25px 20px 25px;
+        width: 260px;
+    }
+    .photoBanner{
+        width: 280px
     }
     .gallery-photo {
         width: 280px;
